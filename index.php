@@ -64,7 +64,7 @@
     <div class="owl-carousel owl-theme">
         <?php
 
-        for ($f = 0; $f < 16; $f++) {
+        for ($f = 0; $f < 17; $f++) {
             echo "<div class=\"item\">
                             <img id=\"filmes\" class=\"box-filme\" src=\"imgs/filmes/img" . ($f + 1) . ".jpg\" alt=\"img\">
                              </div>";
@@ -90,7 +90,7 @@
 <div classe="carrossel-filmes">
     <div class="owl-carousel owl-theme">
         <?php
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 12; $i++) {
             echo "<div class=\"item\">
                             <img id=\"infantil\" class=\"box-filme\" src=\"imgs/infantil/img" . ($i + 1) . ".jpg\" alt=\"img\">
                         </div>";
